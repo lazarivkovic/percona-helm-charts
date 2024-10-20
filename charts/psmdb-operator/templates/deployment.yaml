@@ -32,6 +32,9 @@ spec:
         {{- end }}
     spec:
       serviceAccountName: {{ include "psmdb-operator.fullname" . }}
+      {{- if .Values.priorityClassName }}
+      priorityClassName: {{ .Values.priorityClassName }}
+      {{- end }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
     {{- with .Values.imagePullSecrets }}

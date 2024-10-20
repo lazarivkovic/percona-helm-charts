@@ -50,7 +50,10 @@ podAnnotations: {}
 
 # labels to the operator pod
 podLabels: {}
-  
+
+# priority pod
+priorityClassName: ""
+
 podSecurityContext: {}
   # runAsNonRoot: true
   # runAsUser: 2
