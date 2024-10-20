@@ -57,3 +57,5 @@ If you find a bug related to one of these Helm charts, please submit a report to
 * [Percona Monitoring and Management](https://jira.percona.com/projects/PMM)
 
 Learn more about submitting bugs, new feature ideas, and improvements in the [Contribution Guide](CONTRIBUTING.md).
+
+.
